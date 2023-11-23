@@ -1,0 +1,35 @@
+body{
+    background-image: url(media/fundo.avif);
+    background-size: cover;
+    font: normal 15pt Arial;
+}
+header{
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+#titulo{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#serie{
+    height: 350px;
+    width: auto;
+}
+.carousel-control-prev-icon {
+    position: absolute;
+    left: 100px;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    right: 100px;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
